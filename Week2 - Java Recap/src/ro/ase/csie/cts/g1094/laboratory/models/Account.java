@@ -1,8 +1,11 @@
 package ro.ase.csie.cts.g1094.laboratory.models;
 
+import ro.ase.csie.cts.g1094.laboratory.exceptions.IllegalTransferException;
+import ro.ase.csie.cts.g1094.laboratory.exceptions.InsufficientFundsException;
+
 public abstract class Account {
 	public abstract double getBalance();
-	public abstract void deposit(Object amount);
-	public abstract void withdraw(Object amount);
-	public abstract void transfer(Account destination, Object amount);
+	public abstract void deposit(Double amount);
+	public abstract void withdraw(Double amount) throws InsufficientFundsException;
+	public abstract void transfer(Account destination, Double amount) throws InsufficientFundsException, IllegalTransferException, IllegalTransferException;
 }
