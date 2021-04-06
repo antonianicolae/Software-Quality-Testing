@@ -1,0 +1,15 @@
+1. The package name
+2. Comments shouldn't exist, just TODO ones
+3. Indentation is important
+4. Naming conventions should be followed
+5. The ode should fit in the standard 14 inch laptop screen.
+6. Group similar values under an enumeration (enum).
+7. Use a space ( ) between operators and operands.
+8. Function arguments are separated by a , (comma) and a space
+9. Use conditional operator for simple if structures
+10. Code blocks start with { and ends with } even if they have a single instruction.
+11.Define each variable on a single line.
+12. Write the block closing bracket } on a single line. Except for if-else or try-catch.
+13. Get rid of unused attributes
+14. Avoid duplication of code
+15. Use enums instead of constants
