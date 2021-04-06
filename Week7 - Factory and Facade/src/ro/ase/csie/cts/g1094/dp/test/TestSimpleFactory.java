@@ -1,8 +1,5 @@
 package ro.ase.csie.cts.g1094.dp.test;
 
-import ro.ase.csie.cts.g1094.dp.simplefactory.Bazooka;
-import ro.ase.csie.cts.g1094.dp.simplefactory.MachineGun;
-import ro.ase.csie.cts.g1094.dp.simplefactory.Pistol;
 import ro.ase.csie.cts.g1094.dp.simplefactory.SuperHero;
 import ro.ase.csie.cts.g1094.dp.simplefactory.WeaponType;
 import ro.ase.csie.cts.g1094.dp.simplefactory.WeaponsFactory;
